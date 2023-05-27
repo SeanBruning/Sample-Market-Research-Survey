@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Market Research </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="watchme">Market Research </h2>
+        <ul id="output"></ul>
+        <div class="form-wrapper">
+            <form action="">
+                <div class="form-group">
+                    <label for="name"> Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email: </label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group gender">
+                    Gender:
+                    <div class="genderDiv">
+                        <input type="radio" name="gender" id="male"><label for="male"> Male </label>
+                        <input type="radio" name="gender" id="female"><label for="female"> Female </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="hear" id="hear"> How did you hear about our brand ? </label>
+                    <select>
+                        <option class="transparent" value="Instagram"> Instagram </option>
+                        <option class="transparent" value="Facebook"> Facebook </option>
+                        <option class="transparent" value="friends"> Friends </option>
+                        <option class="transparent" value="googleSearch"> Google Search </option>
+                        <option class="transparent" value="Randomly"> Randomly </option>
+                        <option class="transparent" value="other"> other </option>
+                    </select>
+                </div>
+                <div class="form-group flex">
+                    <label for="features" id="features"> Does this product have all the features and Functionalities you
+                        expect ? </label>
+                    <div class="recommendation">
+                        <input type="radio" name="recommend" id="yes"><label for="yes"> Yes </label>
+                        <input type="radio" name="recommend" id="no"><label for="no"> No </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for=""> Which of the following words best describe our products? </label>
+                    <div class="box">
+                        <input type="checkbox" name="Reliable" id="Reliable"> <label for="Reliable"> Reliable </label>
+                        <input type="checkbox" name="High Quality" id="High Quality"> <label for="High Quality"> High
+                            Quality </label>
+                        <input type="checkbox" name="Useful" id="Useful"> <label for="Useful"> Useful </label>
+                        <input type="checkbox" name="Overpriced" id="Overpriced"> <label for="Overpriced"> Overpriced
+                        </label>
+                        <input type="checkbox" name="Ineffictive" id="Ineffictive"> <label for="Ineffictive">
+                            Ineffictive</label>
+                        <input type="checkbox" name="Poor Quality" id="Poor Quality"> <label for="Poor Quality">Poor
+                            Quality </label>
+                    </div>
+                </div>
+                <div class="form-group flex">
+                    <label for="suggestions"> How we can improve ourself? </label>
+                    <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit"> Submit </button>
+                <p>We appreciate your feedback in this online survey, as it will help us to make better decisions for
+                    our customers.<br>We also value any suggestions or ideas that you may have.</p>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
